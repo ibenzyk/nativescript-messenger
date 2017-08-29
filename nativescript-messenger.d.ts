@@ -1,5 +1,5 @@
 declare module "nativescript-messenger" {
-    import frameModule = require("ui/frame");
+    import frameModule = require("tns-core-modules/ui/frame");
 
     export interface SendResult {
         response: string;
